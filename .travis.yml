@@ -1,4 +1,4 @@
-language: php
+language: PHP
 
 services:
   - docker
@@ -8,5 +8,3 @@ before_install:
 - docker run -d --rm -p 80:80 --name phphello prabhakaran2304/docker-php-apache-ubuntu:1.0.0
 - docker ps -a
 
-script:
-- bundle exec rake test
