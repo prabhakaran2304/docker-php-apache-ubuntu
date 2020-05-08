@@ -4,8 +4,8 @@ services:
   - docker
 
 before_install:
-- docker pull prabhakaran2304/docker-php-apache-ubuntu
-- docker run -d -p 127.0.0.1:80 prabhakaran2304/docker-php-apache-ubuntu  
+- docker pull prabhakaran2304/docker-php-apache-ubuntu:1.0.0
+- docker run -d -p 127.0.0.1:80 prabhakaran2304/docker-php-apache-ubuntu:1.0.0
 - docker ps -a
 
 script:
