@@ -2,9 +2,9 @@
   
    <a href="https://hub.docker.com/r/prabhakaran2304/docker-php-apache-ubuntu/"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/prabhakaran2304/docker-php-apache-ubuntu.svg?style=flat-square"></a>
  
-</p>
+[![Build Status](https://travis-ci.org/prabhakaran2304/docker-php-apache-ubuntu.svg?branch=master)](https://travis-ci.org/prabhakaran2304/docker-php-apache-ubuntu)
 
-[![Travis CI](https://img.shields.io/travis/prabhakaran2304/docker-php-apache-ubuntu.svg?style=for-the-badge)](https://travis-ci.org/prabhakaran2304/docker-php-apache-ubuntu)
+</p>
 
 # docker-php-apache-ubuntu
 ## Docker image package version
