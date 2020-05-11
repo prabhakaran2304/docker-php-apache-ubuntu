@@ -10,4 +10,4 @@ before_install:
 script:
 - docker images
 - docker ps -a
-- curl http://0.0.0.0/site1/index.html
+- curl http://localhost
