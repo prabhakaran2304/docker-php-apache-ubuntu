@@ -1,4 +1,3 @@
-sudo: required
 services:
   - docker
 
@@ -11,4 +10,4 @@ script:
 - docker ps -a
 - sleep 30
 - docker ps 
-- curl http://localhost
+- curl http://127.0.0.1
