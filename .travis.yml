@@ -1,4 +1,4 @@
-language: ruby
+sudo: required
 
 services:
   - docker
@@ -9,5 +9,7 @@ before_install:
 - docker ps -a
 
 script:
-- bundle exec rake test
+- docker images
+- docker ps -a
+
 
