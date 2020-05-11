@@ -1,4 +1,4 @@
-language: ruby
+language: PHP
 
 services:
   - docker
