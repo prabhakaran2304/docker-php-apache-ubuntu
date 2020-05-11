@@ -6,10 +6,10 @@ services:
 before_install:
 - docker pull prabhakaran2304/docker-php-apache-ubuntu:1.0.0
 - docker run -d --rm -p 80:80 --name phphello prabhakaran2304/docker-php-apache-ubuntu:1.0.0
-- docker ps -a
 
 script:
 - docker images
 - docker ps -a
+- curl http://0.0.0.0
 
 
